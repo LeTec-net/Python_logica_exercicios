@@ -11,3 +11,16 @@ Utilize `if...elif...else` para classificar:
 | 5 a 6.9     | Recuperação |
 | Menor que 5 | Reprovado   |
 '''
+
+nota = 6.8
+
+print("\n\n")
+
+if nota >= 9:
+    print("Excelente")
+elif nota >= 7:
+    print("Aprovado")
+elif nota >= 5:
+    print("Recuperação")
+else:
+    print("Reprovado")

@@ -9,3 +9,9 @@ Verifique se o nome "Pedro" está presente na lista.
  - Caso esteja: "Nome encontrado."
  - Caso contrário: "Nome não encontrado."
 '''
+
+nomes = ["Ana", "Carlos", "Marina", "Pedro", "Julia"]
+if "Rosa" in nomes:
+    print("Nome encontrado.")
+else:
+    print("Nome não encontrado.")

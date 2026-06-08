@@ -10,3 +10,6 @@ Crie um programa que:
 (Os valores devem vir das variáveis.)
 '''
 
+name = "Joca"
+age = 65
+print(f"Olá {name}, você tem {age} anos.")
